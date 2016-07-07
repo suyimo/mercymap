@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutUSViewController">
+            <connections>
+                <outlet property="aboutInfoLable" destination="CQc-PB-c4I" id="EAj-EN-Bo7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="暂无数据.png" translatesAutoresizingMaskIntoConstraints="NO" id="haI-IV-1XD">
+                    <rect key="frame" x="118" y="172" width="64" height="64"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQc-PB-c4I">
+                    <rect key="frame" x="62" y="96" width="176" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="haI-IV-1XD" secondAttribute="trailing" constant="138" id="E4c-IQ-Uk6"/>
+                <constraint firstItem="haI-IV-1XD" firstAttribute="top" secondItem="CQc-PB-c4I" secondAttribute="bottom" constant="55" id="Eeh-0z-C3n"/>
+                <constraint firstAttribute="trailing" secondItem="CQc-PB-c4I" secondAttribute="trailing" constant="82" id="aBI-I4-9is"/>
+                <constraint firstItem="CQc-PB-c4I" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="62" id="aUe-Wz-kEU"/>
+                <constraint firstItem="CQc-PB-c4I" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="96" id="jWP-eK-xJ3"/>
+                <constraint firstItem="haI-IV-1XD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="118" id="l9S-g1-bLe"/>
+                <constraint firstItem="haI-IV-1XD" firstAttribute="top" secondItem="CQc-PB-c4I" secondAttribute="bottom" constant="55" id="vXG-ae-XMy"/>
+                <constraint firstAttribute="bottom" secondItem="haI-IV-1XD" secondAttribute="bottom" constant="332" id="zIv-7M-UTX"/>
+            </constraints>
+            <point key="canvasLocation" x="304" y="240"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="暂无数据.png" width="64" height="64"/>
+    </resources>
+</document>

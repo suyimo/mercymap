@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b5857390-99f9-4869-9eed-46dcc22fafad" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b5857390-99f9-4869-9eed-46dcc22fafad" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "083C6EA1-A285-4A85-82A4-3E11865A16A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b5857390-99f9-4869-9eed-46dcc22fafad" : "..\/..\/Downloads\/%E5%B7%A5%E4%BD%9C%E6%96%87%E6%A1%A3\/bangbangda"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MercyMap",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MercyMap.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/bangbangda",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b5857390-99f9-4869-9eed-46dcc22fafad"
+    }
+  ]
+}
